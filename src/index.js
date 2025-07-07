@@ -2,16 +2,17 @@ import "./styles.css";
 
 
 
-const option = document.querySelectorAll('.option');
+const option = document.querySelectorAll('option');
+// option.style.visibility = 'hidden';
 
-console.log(option);
 
-// option.addEventListener('click', function (){
-//     console.log('hello');
-// });
+const select = document.querySelector('select');
+// select.style.visibility = 'hidden';
 
-// option.forEach(option => {
-//     option.addEventListener('mousehover', function(){
-//         console.log('hello');
-//     })
-// });
+select.addEventListener('mouseover', () => {
+    console.log('hello');
+    console.log(option);
+
+})
+
+

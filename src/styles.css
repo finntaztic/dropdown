@@ -11,16 +11,19 @@ body{
     min-height: 100vh;
 }
 
-.dropdown {
+.container {
   background-color: pink;
   height: 500px;
   width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
-
+ul {
+  list-style-type: none;
+}
 /* .dropdown select {
   position: relative;
 }
