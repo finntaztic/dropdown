@@ -1,18 +1,17 @@
 import "./styles.css";
 
+const option = document.querySelector('ul');
+console.log(option);
+option.style.visibility = 'hidden'
 
 
-const option = document.querySelectorAll('option');
-// option.style.visibility = 'hidden';
+const hover = document.querySelector('.hover');
+console.log(hover);
 
-
-const select = document.querySelector('select');
-// select.style.visibility = 'hidden';
-
-select.addEventListener('mouseover', () => {
+hover.addEventListener('mouseover', () => {
     console.log('hello');
     console.log(option);
-
+    option.style.visibility = 'visible';
 })
 
 
