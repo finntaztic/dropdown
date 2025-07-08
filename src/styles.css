@@ -13,8 +13,8 @@ body{
 
 .container {
   background-color: pink;
-  height: 500px;
-  width: 500px;
+  height: 250px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,6 +24,18 @@ body{
 
 ul {
   list-style-type: none;
+}
+
+.options {
+  display: flex;
+}
+
+li {
+  padding: 4px;
+}
+
+button {
+  padding: 5px;
 }
 /* .dropdown select {
   position: relative;
